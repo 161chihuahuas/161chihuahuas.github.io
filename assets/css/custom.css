@@ -7,8 +7,7 @@ html, body {
 div {
   background: #000;
   width: 360px;
-  margin: auto;
-  margin-top: 8em;
+  margin: 8em auto;
   border-radius: 1em;
 }
 
