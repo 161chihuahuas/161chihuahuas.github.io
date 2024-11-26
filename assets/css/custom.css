@@ -40,6 +40,31 @@ p {
   text-align: center;
 }
 
+hr {
+  color: #333;
+}
+
+ul.cta {
+
+
+}
+
+ul.cta li {
+  
+}
+
+ul.cta li a {
+  color: #000;
+  background: #f13223;
+  border: 1px solid #000;
+}
+
+ul.cta li a:hover {
+  color: #f13223;
+  border: 1px solid #f13223;
+  background: #000
+}
+
 ul {
   list-style-type: none;
   margin: 2em 0 0 0;
