@@ -1,39 +1,30 @@
 html, body {
-  background-color: #000; /* maybe #fff idk */
-  color: #200;
+  background-color: #3b224c;
+  color: #281733;
   font-family: "Raleway", sans-serif;
 }
 
 div {
-  background: #000;
-  width: 360px;
+  background: #3b224c;
+  max-width: 640px;
+  min-width: 320px;
   margin: 8em auto;
   border-radius: 1em;
 }
 
 section {
   color: #fff;
-  text-align: center;
   top: -4em;
-  position: relative;
-}
-
-section img {
   position: relative;
 }
 
 h1 {
   font-size: 3em;
-  text-transform: uppercase;
   margin-top: 1rem;
 }
 
 h5 {
   margin: -2em 0 0 0;
-}
-
-h2 {
-
 }
 
 p {
@@ -44,58 +35,20 @@ hr {
   color: #333;
 }
 
-ul.cta {
-
-
-}
-
-ul.cta li {
-  
-}
-
-ul.cta li a {
-  color: #000;
-  background: #f13223;
-  border: 1px solid #000;
-}
-
-ul.cta li a:hover {
-  color: #f13223;
-  border: 1px solid #f13223;
-  background: #000
-}
-
 ul {
   list-style-type: none;
   margin: 2em 0 0 0;
   padding: 0;
-/*  border-top: 1px solid #fff;*/
+  text-transform: lowercase;
 }
 
 ul li a {
   padding: 1em;
   display: block;
-  color: #f13223;
+  color: #fff;
   text-decoration: none;
-/*  border-bottom: 1px solid #fff;*/
 }
 
 ul li a:hover {
-  color: #000;
-  background: #f13223;
-}
-
-/* Bigger than 550 */
-@media (min-width: 550px) {
-
-}
-
-/* Bigger than 750 */
-@media (min-width: 750px) {
-
-}
-
-/* Bigger than 1000 */
-@media (min-width: 1000px) {
-
+  background: #281733;
 }
