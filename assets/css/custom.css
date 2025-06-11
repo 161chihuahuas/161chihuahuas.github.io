@@ -40,7 +40,7 @@ a:visited {
 .glitch {
   position: relative;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .line:not(:first-child) {
@@ -590,3 +590,47 @@ a:visited {
             clip-path: polygon(0 -20%, 100% -20%, 100% 0%, 0 0);
   }
 }
+
+
+/* custom.css | file:///home/em/Projects/161chihuahuas.github.io/assets/css/custom.css */
+
+.glitch {
+  /* font-size: 16px; */
+  font-size: 20px;
+}
+
+h1 ul {
+  text-align: center;
+}
+
+/* Inline #4 | file:///home/em/Projects/161chihuahuas.github.io/index.html */
+
+.projects {
+  background: #fff;
+}
+
+.projects li a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.projects li {
+  display: block;
+}
+
+.projects {
+  /* background: #fff; */
+  background: rgba(255,255,255,0.5);
+  padding: 12px;
+  text-align: left;
+}
+
+
+
+/* custom.css | file:///home/em/Projects/161chihuahuas.github.io/assets/css/custom.css */
+
+.projects {
+  /* background: rgba(255,255,255,0.5); */
+  background: rgba(255,0,255, 0.2);
+}
+
